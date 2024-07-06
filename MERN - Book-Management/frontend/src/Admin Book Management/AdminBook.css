@@ -1,0 +1,49 @@
+.img-size{
+    max-width: 430px;
+    height: auto;
+}
+.main-book{
+    background-color: #fff;
+    box-shadow: 5px 10px 29px 0 rgb(68 88 144 / 20%);
+    padding: 20px;
+    border-radius: 7px;
+    margin-bottom: 40px;
+}
+.list-sub{
+    padding: 8px 0px;
+    font-size: 17px;
+    color: #000;
+}
+.price-main{
+    text-align: center;
+    padding: 90px 0px;
+}
+.btn-delete{
+    background-color: #fff;
+    border-color: #97a4a9;
+    padding: 8px 20px;
+    color: #087096;
+    border: 1px solid #087096;
+    margin: 0px 5px;
+}
+.btn-add{
+    background-color: #fff;
+    border-color: #087096;
+    padding: 8px 50px;
+    color: #087096;
+    border: 1px solid #087096;
+}
+
+
+@media(max-width: 1024px){
+    .img-size{
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+@media(max-width: 480px){
+    .row {
+        margin: auto !important;
+    }
+}

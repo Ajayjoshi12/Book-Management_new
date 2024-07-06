@@ -1,0 +1,41 @@
+.img-size2{
+    max-width: 430px;
+    height: auto;
+}
+.main-book2{
+    background-color: #fff;
+    box-shadow: 5px 10px 29px 0 rgb(68 88 144 / 20%);
+    padding: 20px;
+    border-radius: 7px;
+}
+.list-sub2{
+    padding: 8px 0px;
+    font-size: 17px;
+    color: #000;
+}
+.price-main2{
+    text-align: center;
+    padding: 90px 0px;
+}
+.btn-read{
+    background-color: #fff;
+    border-color: #087096 ;
+    padding: 8px 50px;
+    color: #087096;
+    border: 1px solid #087096;
+    text-decoration: none !important;
+}
+
+
+@media(max-width: 1024px){
+    .img-size2{
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+@media(max-width: 480px){
+    .row {
+        margin: auto !important;
+    }
+}
